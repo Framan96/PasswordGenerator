@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength analyser</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css') }}">
+    <script src="{{ url_for('static',filename='main.js') }}"></script>
+  </head>
+  <body>
+    <div class="form">
+      <h1>PASSWORD-CHECKER</h1>
+      <div class="Password">
+        <input type="password" class="input" id="input" placeholder="Password">
+        <button type="button" id="pass" onclick="showPassword()">Show</button>
+      </div>
+      <button class="generate" onclick="checkPassword()">Generate Password</button>
+      <div id="Strength"></div>
+      <div id="Generated"></div>
+    </div>
+  </body>
+</html>

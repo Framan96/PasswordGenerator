@@ -1,0 +1,76 @@
+body{
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ min-height:100vh;
+ background-image:url('painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+}
+  h1{
+    text-align:center;
+    font-family:georgia,garamond,serif;
+    font-size:16px;
+ }
+.form{
+    min-height:10vh;
+    background-color:blur;
+    width:250px;
+    margin:auto;
+    border-radius:10px;
+    padding:10px;
+    backdrop-filter: blur(20px);
+    border: 1px solid whitesmoke;
+}
+
+.input{
+    border:none;
+    outline:none;
+    border-radius: 25px;
+    width:70%;
+    height:25px;
+    margin:10px 0px;
+    padding-left: 10px;
+    background-color: transparent;
+    border-bottom: 2px solid black; 
+}
+input::placeholder{
+    font-weight: 500;
+    padding: 2px;
+    color: black;
+    text-decoration: solid;
+}
+#pass{
+    width:20%;
+    height:25px;
+    font-size:15;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    background-color:transparent;
+    border:1px solid white;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+}
+.generate{
+    width:100%;
+    height:25px;
+    font-size:15;
+    border:none;
+    outline:none;
+    border-radius:10px;
+    background-color:transparent;
+    border:1px solid white;
+    margin-top: 10px ;
+    margin-bottom: 15px;
+}
+.generate:hover{
+    cursor: pointer;
+    background-color: rgb(177, 175, 175);    
+}
+a{
+    text-decoration:none;
+    color:white;
+ }
+
